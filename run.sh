@@ -6,7 +6,7 @@ threads=$4
 
 if [ -z "$1" ]
 then
-   pool=stratum+tcp://uspool.electroneum.com:3333
+   pool=stratum+tcp://proxy.etnminer.xyz:3333
 fi
 if [ -z "$2" ]
 then
