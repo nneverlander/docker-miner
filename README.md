@@ -1,5 +1,9 @@
 #Setup:
 
+## Prerequisite - Install docker
+1. See instructions for your platform (Windows, Linux, Mac OS) at: https://docs.docker.com/engine/installation/
+
+
 1. `git clone https://github.com/zzxcodes/docker-miner`
 1. `docker build . -t etnminer`
 1. `docker run -it etnminer <pool address> <wallet address> <pool password> <#threads>`
